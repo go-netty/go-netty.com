@@ -1,0 +1,86 @@
+header:
+  - title:      Home
+    url:        /
+  - title:      Docs
+    url:        /docs/en/quick-start
+    key:        docs
+  - title:      Archive
+    url:        /archive.html
+  - title:      GitHub
+    url:        https://github.com/go-netty/go-netty
+
+docs-en:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /docs/en/quick-start
+      - title:  Architecture Design
+        url:    /docs/en/design
+  - title:      Transport
+    children:
+      - title:  Basic Usage
+        url:    /docs/en/transport-usage
+      - title:  Transport Customize
+        url:    /docs/en/transport-customize
+  - title:      Codec
+    children:
+      - title:  Internal Codec
+        url:    /docs/en/codec-internal
+      - title:  Customize Codec
+        url:    /docs/en/codec-customize
+  - title:      Languages
+    children:
+      - title:  中文
+        url:    /docs/zh/quick-start
+
+docs-zh:
+  - title:      开始
+    children:
+      - title:  快速开始
+        url:    /docs/zh/quick-start
+      - title:  架构设计
+        url:    /docs/zh/design
+  - title:      传输方式
+    children:
+      - title:  使用方式
+        url:    /docs/zh/transport-usage
+      - title:  自定义
+        url:    /docs/zh/transport-customize
+  - title:      编解码器
+    children:
+      - title:  内置编解码器
+        url:    /docs/zh/codec-internal
+      - title:  定制编解码
+        url:    /docs/zh/codec-customize
+  - title:      其他语言
+    children:
+      - title:  English
+        url:    /docs/en/quick-start
+
+layouts:
+  - title: Layouts
+    children:
+      - title:  Single
+        url:    /page/single.html
+      - title:  Aside
+        url:    /page/aside.html
+      - title:  Sidebar
+        url:    /page/sidebar.html
+      - title:  Sidebar (Aside)
+        url:    /page/sidebar-aside.html
+      - title:  Article Header Overlay Background Fill
+        url:    /page/article-header-overlay-background-fill.html
+      - title:  Article Header Overlay Background Image
+        url:    /page/article-header-overlay-background-image.html
+      - title:  Article Header Image
+        url:    /page/article-header-cover-image.html
+      - title:  Article Header Overlay Background Image (Customized Header Background)
+        url:    /page/article-header-overlay-background-image-header-background.html
+      - title:  Article Header Image (Customized Header Background)
+        url:    /page/article-header-cover-image-header-background.html
+      - title:  Article Header Overlay Background Fill (Immersive + Translucent Header)
+        url:    /page/article-header-overlay-background-fill-immersive-translucent-header.html
+      - title:  Article Header Overlay Background Image (Immersive + Translucent Header)
+        url:    /page/article-header-overlay-background-image-immersive-translucent-header.html
+      - title:  Article Header Image (Immersive + Translucent Header)
+        url:    /page/article-header-cover-image-immersive-translucent-header.html
