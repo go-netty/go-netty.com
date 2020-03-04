@@ -23,7 +23,7 @@
     "eslint": "eslint \"_includes/**/*.js\"",
     "eslint-fix": "eslint \"_includes/**/*.js\" --fix",
     "stylelint": "stylelint --syntax scss \"_sass/**/*.scss\"",
-    "stylelint-fix": "stylelint --syntax scss \"_sass/**/*.scss\" --fix",
+    "stylelint-fix": "stylelint --syntax scss \"_sass/**/*.scss\" --fix"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",

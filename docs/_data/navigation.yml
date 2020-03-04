@@ -1,61 +1,37 @@
 header:
-  - title:      Home
+  - title:      Blog
     url:        /
-  - title:      Docs
-    url:        /docs/en/quick-start
-    key:        docs
   - title:      Archive
     url:        /archive.html
+  - title:      Docs
+    url:        /docs/en/overview
+    key:        docs
   - title:      GitHub
     url:        https://github.com/go-netty/go-netty
 
 docs-en:
-  - title:      Start
+  - title:      Getting Started
     children:
+      - title:  Overview
+        url:    /docs/en/overview
       - title:  Quick Start
         url:    /docs/en/quick-start
-      - title:  Architecture Design
-        url:    /docs/en/design
-  - title:      Transport
-    children:
-      - title:  Basic Usage
-        url:    /docs/en/transport-usage
-      - title:  Transport Customize
-        url:    /docs/en/transport-customize
-  - title:      Codec
-    children:
-      - title:  Internal Codec
-        url:    /docs/en/codec-internal
-      - title:  Customize Codec
-        url:    /docs/en/codec-customize
   - title:      Languages
     children:
       - title:  中文
-        url:    /docs/zh/quick-start
+        url:    /docs/zh/overview
 
 docs-zh:
-  - title:      开始
+  - title:      开始指南
     children:
+      - title:  概述
+        url:    /docs/zh/overview
       - title:  快速开始
         url:    /docs/zh/quick-start
-      - title:  架构设计
-        url:    /docs/zh/design
-  - title:      传输方式
-    children:
-      - title:  使用方式
-        url:    /docs/zh/transport-usage
-      - title:  自定义
-        url:    /docs/zh/transport-customize
-  - title:      编解码器
-    children:
-      - title:  内置编解码器
-        url:    /docs/zh/codec-internal
-      - title:  定制编解码
-        url:    /docs/zh/codec-customize
   - title:      其他语言
     children:
       - title:  English
-        url:    /docs/en/quick-start
+        url:    /docs/en/overview
 
 layouts:
   - title: Layouts
